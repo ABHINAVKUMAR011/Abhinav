@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("download-resume").addEventListener("click", function () {
         const link = document.createElement("a");
-        link.href = "resume.pdf";
-        link.download = "resume.pdf";
+        link.href = "abhinav_12212032gncv.pdf";
+        link.download = "abhinav_12212032gncv.pdf";
         link.click();
     });
 
