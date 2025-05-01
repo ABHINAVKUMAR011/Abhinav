@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // Show Projects Function
+
     function showProjects(category) {
         document.getElementById('web-development').style.display = 'none';
         document.getElementById('data-science').style.display = 'none';
@@ -22,12 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     // Add event listeners to buttons
-    document.getElementById("web-dev-btn").addEventListener("click", function () {
-        showProjects('web-development');
-    });
-    document.getElementById("data-science-btn").addEventListener("click", function () {
-        showProjects('data-science');
-    });
+
+document.getElementById("web-dev-btn").addEventListener("click", function () {
+    showProjects('web-development');
+});
+document.getElementById("data-science-btn").addEventListener("click", function () {
+    showProjects('data-science');
+});
+
 
     // Resume Download Functionality
     
