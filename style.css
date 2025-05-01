@@ -231,37 +231,6 @@ button:hover {
   align-items: flex-start;
 }
 
-/* Contact Form */
-#contactForm {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-#contactForm label {
-  font-weight: bold;
-}
-
-#contactForm input,
-#contactForm textarea {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-family: inherit;
-}
-
-#contactForm textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-#contactForm button {
-  align-self: flex-start;
-}
 
 /* Contact Info Box */
 .contact-info {
