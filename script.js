@@ -65,7 +65,6 @@ if (contactForm) {
         window.location.href = `mailto:abhinav353637@gmail.com?subject=${subject}&body=${body}`;
     });
 }
-});
 
 
 
