@@ -206,3 +206,50 @@ button:hover {
     height: 30px; /* Prevent layout shift */
 }
 
+#contact {
+  padding: 40px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.contact-option {
+  background-color: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.contact-option:hover {
+  transform: scale(1.05);
+}
+
+.contact-option h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-option a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-option a:hover {
+  text-decoration: underline;
+}
+
